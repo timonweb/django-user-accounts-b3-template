@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-{% block content-area %}
+{% block body_base %}
 <div class="main-content">
-    <div class="main col-md-6 col-md-push-3">
-        {% block content %}{% endblock %}
+    <div class="row">
+        <div class="main col-md-6 col-md-push-3">
+            {% block body %}{% endblock %}
+        </div>
     </div>
 </div>
-{% endblock content-area %}
+{% endblock %}

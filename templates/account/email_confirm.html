@@ -4,7 +4,7 @@
 
 {% block head_title %}{% trans "Confirm Email" %}{% endblock %}
 
-{% block content %}
+{% block body %}
     <form method="post" action="{% url "account_confirm_email" key=confirmation.key %}" class="form-horizontal">
         <legend>{% trans "Confirm Email" %}</legend>
         <fieldset>

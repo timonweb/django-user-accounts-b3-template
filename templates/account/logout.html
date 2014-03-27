@@ -5,7 +5,7 @@
 
 {% block head_title %}{% trans "Log out" %}{% endblock %}
 
-{% block content %}
+{% block body %}
     <form method="POST" action="{% url "account_logout" %}" class="form-horizontal">
         <legend>{% trans "Log out" %}</legend>
         <fieldset>
